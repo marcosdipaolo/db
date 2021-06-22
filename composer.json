@@ -1,0 +1,23 @@
+{
+    "name": "marcosdipaolo/db",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Marcos Di Paolo",
+            "email": "marcosdipaolo@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "ext-pdo": "*",
+        "robmorgan/phinx": "^0.12.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "MDP\\DB\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
